@@ -1,4 +1,16 @@
 .main-body {
     padding-top: 1rem;
     padding-bottom: 1rem;
+    max-height: 100vh;
+    height: 100vh;
+    overflow-y: auto;
+}
+body {
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: cover;
+    backdrop-filter: grayscale(100%) opacity(10%);
+    max-height: 100vh;
+    overflow-y: hidden;
 }
