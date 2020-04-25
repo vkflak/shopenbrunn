@@ -14,3 +14,18 @@ body {
     max-height: 100vh;
     overflow-y: hidden;
 }
+#showslide{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10000;
+    pointer-events: none;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    opacity: 0.0;
+}
